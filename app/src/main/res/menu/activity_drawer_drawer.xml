@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="General">
+        <menu>
+            <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/offerlift"
+            android:title="@string/Offerlift"/>
+        <item
+            android:id="@+id/needlift"
+            android:icon="@drawable/needlift"
+            android:title="@string/needlift" />
+                <item
+                    android:id="@+id/incomingrequest"
+                    android:icon="@drawable/sharefare"
+                    android:title="@string/incomingrequest" />
+        <item
+            android:id="@+id/map"
+            android:icon="@mipmap/rsz_icon"
+            android:title="@string/map" />
+
+
+
+    </group>
+        </menu>
+    </item>
+
+    <item android:title="Share Fare">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sharefareofferlift"
+                    android:icon="@drawable/sharefare"
+                    android:title="@string/Offerlift" />
+                <item
+                    android:id="@+id/sharefareneedlift"
+                    android:icon="@drawable/sharefare"
+                    android:title="@string/needlift" />
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/reportandrating"
+                android:icon="@drawable/ratereportimage"
+                android:title="Report and Rating"/>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout"/>
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/about"
+                    android:title="About"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>
